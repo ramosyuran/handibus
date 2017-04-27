@@ -274,6 +274,42 @@ textarea {
 
   @media (min-width: 768px) {
 
+    /*COMMUN RULES*/
+
+    .mobile{
+      display: none;
+    }
+
+    .pc{
+      display: flex;
+    }
+
+    /*END COMMUN RULES*/
+
+    /*menu*/
+
+    .pc ul{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 10px auto;
+      padding: 0;
+    }
+
+    .pc ul a{
+      padding: 15px;
+      color: black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .pc ul a:hover{
+      color: #02a9a2;
+      border-bottom: #02a9a2 2px solid;
+    }
+
+    /*menu end*/
+
     /*page accueil*/
 
     .article1{
