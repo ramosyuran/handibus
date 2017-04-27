@@ -97,7 +97,17 @@ textarea {
 
 
 
+  .budgetpc ul li p{
+    background: yellow;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
 
+  .budgetpc ul li{
+    display: flex;
+    align-items: center;
+  }
 
 
 
