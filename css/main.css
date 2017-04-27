@@ -97,7 +97,61 @@ textarea {
 
   /*COMMUN RULES*/
 
-  
+  .pc, .dropdown{
+    display: none;
+  }
+
+  figure, img{
+    width: 100%;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /*END COMMUN RULES*/
+  .mobile{
+    text-align: left;
+  }
+
+  .mobile:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .drop img{
+    height: 40px;
+  }
+
+  .drop{
+    padding: 10px;
+  }
+
+  .dropdown{
+    text-align: center;
+    background: white;
+    position: absolute;
+    width: 100%;
+    /*opacity: 0.8;*/
+  }
+
+  .dropdown a{
+    width: 100%;
+    line-height: 60px;
+    letter-spacing: 2px;
+    color: #02A9A2;
+    border-bottom: #02a9a2 1px solid;
+    text-transform: uppercase;
+  }
+
+  .dropdown a:hover{
+    color: #007977;
+  }
 
   .budgetpc ul li p{
     background: yellow;
