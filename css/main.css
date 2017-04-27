@@ -103,6 +103,7 @@ textarea {
 
   figure, img{
     width: 100%;
+    margin: 0;
   }
 
   ul{
@@ -145,7 +146,6 @@ textarea {
     background: white;
     position: absolute;
     width: 100%;
-    /*opacity: 0.8;*/
   }
 
   .dropdown a{
@@ -188,9 +188,6 @@ textarea {
     color: #918D8A;
     text-align: center;
     font-weight: normal;
-    /*width: 70%;
-    border-bottom: grey 1px solid;
-    border-top: grey 3px solid;*/
   }
 
   .article2{
@@ -198,25 +195,24 @@ textarea {
     margin: auto;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
   }
 
-  .article2 figure{
+  .logo{
     width: 100%;
     text-align: center;
     margin: 0;
     display: flex;
+    justify-content: center;
   }
 
-  .article2 figure img{
-    margin-right: 5px;
+  .logo img{
+    margin-right: 10px;
     width: 50px;
   }
 
   .button{
     text-align: center;
     margin: 40px auto;
-
   }
 
   .button a{
@@ -231,17 +227,36 @@ textarea {
     border: #02a9a2 2px solid;
   }
 
+  /*end page accueil*/
+
+  /*page bio*/
+
+  .bioaxel article{
+    width: 90%;
+    margin: auto;
+  }
+
+  .bioaxel article h1{
+    text-align: center;
+  }
+
+  .cit{
+    font-style: italic;
+  }
+
+  /*end pag bio*/
+
   footer{
     background: #ccc;
   }
 
-  footer figure{
+  .social{
     width: 100%;
-    margin: 0;
+    margin: 15px auto;
     text-align: center;
   }
 
-  footer figure img{
+  .social img{
     width: 25px;
     margin-right: 10px;
   }
@@ -255,10 +270,6 @@ textarea {
     margin: 10px auto;
   }
 
-
-
-
-  /*end page accuei*/
 
   .budgetpc ul li p{
     background: yellow;
