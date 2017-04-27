@@ -103,6 +103,7 @@ textarea {
 
   figure, img{
     width: 100%;
+    margin: 0;
   }
 
   ul{
@@ -115,6 +116,9 @@ textarea {
   }
 
   /*END COMMUN RULES*/
+
+  /*menu*/
+
   .mobile{
     text-align: left;
   }
@@ -142,7 +146,6 @@ textarea {
     background: white;
     position: absolute;
     width: 100%;
-    /*opacity: 0.8;*/
   }
 
   .dropdown a{
@@ -150,7 +153,7 @@ textarea {
 
     line-height: 60px;
     letter-spacing: 2px;
-    color: #02A9A2;
+    color: #02a9a2;
     border-bottom: #02a9a2 1px solid;
     text-transform: uppercase;
   }
@@ -158,6 +161,194 @@ textarea {
   .dropdown a:hover{
     color: #007977;
   }
+
+  /*menu end*/
+
+  /*page accueil*/
+
+  .container h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .article1{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    margin: auto;
+    align-items: flex-end;
+  }
+
+  .article1 figure{
+    width: 80%;
+  }
+
+  .article1 article h2,
+  .article2 h2{
+    color: #918D8A;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  .article2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo img{
+    margin-right: 10px;
+    width: 50px;
+  }
+
+  .button{
+    text-align: center;
+    margin: 40px auto;
+  }
+
+  .button a{
+    background: #02a9a2;
+    color: white;
+    padding: 12px;
+  }
+
+  .button a:hover{
+    background: white;
+    color: #02a9a2;
+    border: #02a9a2 2px solid;
+  }
+
+  /*end page accueil*/
+
+  /*page bio*/
+
+  .bioaxel article,
+  .bioaxel2,
+  .bioaxel3{
+    width: 90%;
+    margin: auto;
+  }
+
+  .bioaxel article h1{
+    text-align: center;
+  }
+
+  .cit{
+    font-style: italic;
+  }
+
+  /*end pag bio*/
+
+  footer{
+    background: #ccc;
+  }
+
+  .social{
+    width: 100%;
+    text-align: center;
+  }
+
+  .social img{
+    width: 25px;
+    margin: 10px 5px;
+  }
+
+  footer p{
+    text-align: center;
+    margin: 0;
+  }
+
+  footer p:nth-child(1){
+    margin: 10px auto;
+  }
+
+  @media (min-width: 768px) {
+
+    /*COMMUN RULES*/
+
+    .mobile{
+      display: none;
+    }
+
+    .pc{
+      display: flex;
+    }
+
+    /*END COMMUN RULES*/
+
+    /*menu*/
+
+    .pc ul{
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: 10px auto;
+      padding: 0;
+    }
+
+    .pc ul a{
+      padding: 15px;
+      color: black;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .pc ul a:hover{
+      color: #02a9a2;
+      border-bottom: #02a9a2 2px solid;
+    }
+
+    /*menu end*/
+
+    /*page accueil*/
+
+    .article1{
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .article1 article h2,
+    .article2 h2{
+      text-align: left;
+    }
+
+    .article1 article{
+      width: 45%;
+    }
+
+    .article1 figure{
+      width: 50%;
+    }
+
+    .article2 h2{
+      width: 60%;
+    }
+
+    .logo{
+      justify-content: flex-start;
+    }
+
+    .button{
+      text-align: right;
+      width: 90%;
+      margin: 40px auto;
+    }
+
+    /*end page accueil*/
+
+  }
+
 
   .budgetpc ul li p{
     background: yellow;
@@ -170,9 +361,6 @@ textarea {
     display: flex;
     align-items: center;
   }
-
-
-
 
 
 
