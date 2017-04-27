@@ -126,10 +126,11 @@ textarea {
 
   .drop img{
     height: 40px;
+    width: 40px;
   }
 
   .drop{
-    padding: 10px;
+    padding: 20px;
   }
 
   .dropdown{
@@ -141,7 +142,6 @@ textarea {
   }
 
   .dropdown a{
-    width: 100%;
     line-height: 60px;
     letter-spacing: 2px;
     color: #02A9A2;
