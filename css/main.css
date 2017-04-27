@@ -115,6 +115,9 @@ textarea {
   }
 
   /*END COMMUN RULES*/
+
+  /*menu*/
+
   .mobile{
     text-align: left;
   }
@@ -150,7 +153,7 @@ textarea {
 
     line-height: 60px;
     letter-spacing: 2px;
-    color: #02A9A2;
+    color: #02a9a2;
     border-bottom: #02a9a2 1px solid;
     text-transform: uppercase;
   }
@@ -158,6 +161,39 @@ textarea {
   .dropdown a:hover{
     color: #007977;
   }
+
+  /*menu end*/
+
+  /*page accueil*/
+
+  .container h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .article1{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .article1 figure{
+    width: 70%;
+  }
+
+  .article2 figure{
+    width: 50px;
+  }
+
+  footer figure{
+    width: 50px;
+  }
+
+
+
+
+  /*end page accuei*/
 
   .budgetpc ul li p{
     background: yellow;
@@ -170,9 +206,6 @@ textarea {
     display: flex;
     align-items: center;
   }
-
-
-
 
 
 
