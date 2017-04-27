@@ -175,19 +175,84 @@ textarea {
   .article1{
     display: flex;
     flex-direction: column-reverse;
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
 
   .article1 figure{
-    width: 70%;
+    width: 80%;
+  }
+
+  .article1 article h2,
+  .article2 h2{
+    color: #918D8A;
+    text-align: center;
+    font-weight: normal;
+    /*width: 70%;
+    border-bottom: grey 1px solid;
+    border-top: grey 3px solid;*/
+  }
+
+  .article2{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
   }
 
   .article2 figure{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    display: flex;
+  }
+
+  .article2 figure img{
+    margin-right: 5px;
     width: 50px;
   }
 
+  .button{
+    text-align: center;
+    margin: 40px auto;
+
+  }
+
+  .button a{
+    background: #02a9a2;
+    color: white;
+    padding: 12px;
+  }
+
+  .button a:hover{
+    background: white;
+    color: #02a9a2;
+    border: #02a9a2 2px solid;
+  }
+
+  footer{
+    background: #ccc;
+  }
+
   footer figure{
-    width: 50px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  footer figure img{
+    width: 25px;
+    margin-right: 10px;
+  }
+
+  footer p{
+    text-align: center;
+    margin: 0;
+  }
+
+  footer p:nth-child(1){
+    margin: 10px auto;
   }
 
 
