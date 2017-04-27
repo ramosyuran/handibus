@@ -177,6 +177,7 @@ textarea {
     flex-direction: column-reverse;
     width: 90%;
     margin: auto;
+    align-items: flex-end;
   }
 
   .article1 figure{
@@ -231,7 +232,9 @@ textarea {
 
   /*page bio*/
 
-  .bioaxel article{
+  .bioaxel article,
+  .bioaxel2,
+  .bioaxel3{
     width: 90%;
     margin: auto;
   }
@@ -252,13 +255,12 @@ textarea {
 
   .social{
     width: 100%;
-    margin: 15px auto;
     text-align: center;
   }
 
   .social img{
     width: 25px;
-    margin-right: 10px;
+    margin: 10px 5px;
   }
 
   footer p{
@@ -268,6 +270,47 @@ textarea {
 
   footer p:nth-child(1){
     margin: 10px auto;
+  }
+
+  @media (min-width: 768px) {
+
+    /*page accueil*/
+
+    .article1{
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .article1 article h2,
+    .article2 h2{
+      text-align: left;
+    }
+
+    .article1 article{
+      width: 45%;
+    }
+
+    .article1 figure{
+      width: 50%;
+    }
+
+    .article2 h2{
+      width: 60%;
+    }
+
+    .logo{
+      justify-content: flex-start;
+    }
+
+    .button{
+      text-align: right;
+      width: 90%;
+      margin: 40px auto;
+    }
+
+    /*end page accueil*/
+
   }
 
 
