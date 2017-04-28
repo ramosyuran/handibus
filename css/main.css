@@ -138,12 +138,8 @@ textarea {
   }
 
   .drop{
-    padding: 10px;
     width: 40px;
-  }
-
-  .drop{
-    padding: 20px;
+    padding: 15px;
   }
 
   .dropdown{
@@ -167,6 +163,22 @@ textarea {
     color: #007977;
   }
 
+  .bk{
+      background: url("../img/photo-tel.png") fixed center;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+  }
+
+  .none, .article1 p{
+    display: none;
+  }
+
+  .article1 article h2, .article1 p{
+    color: white;
+    font-size: 14px;
+  }
+
   /*menu end*/
 
   /*page accueil*/
@@ -174,12 +186,13 @@ textarea {
   .container h1{
     font-size: 35px;
     letter-spacing: 2px;
+    color: white;
     text-align: center;
     font-family: 'Rosario', sans-serif;
   }
 
   .container h1 span{
-    color: #007977;
+    color: #02a9a2;
   }
 
   .article1{
@@ -187,50 +200,19 @@ textarea {
     flex-direction: column-reverse;
     width: 90%;
     margin: auto;
-    align-items: flex-end;
-  }
-
-  .article1 figure{
-    width: 80%;
-    margin-bottom: 20px;
   }
 
   .article1 p{
     text-align: justify;
   }
 
-  .article1 article h2,
-  .article2 h2{
-    color: #918D8A;
+  .article1 article h2{
+    color: white;
     text-align: center;
-    font-weight: normal;
+    padding: 10px;
+    border-bottom: 2px #02a9a2 solid;
+    border-top: 2px #02a9a2 solid;
     font-family: 'Molengo', sans-serif;
-    margin: 3px auto;
-  }
-
-  hr{
-    margin: 5px;
-    background: #007977;
-  }
-
-  .article2{
-    width: 90%;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo{
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .logo img{
-    margin: 20px 5px auto 5px;
-    width: 50px;
   }
 
   .button{
@@ -333,6 +315,11 @@ textarea {
       display: flex;
     }
 
+    .bk{
+        background: url("../img/tab.png") fixed center no-repeat;
+        background-size: cover;
+    }
+
     /*END COMMUN RULES*/
 
     /*menu*/
@@ -358,9 +345,14 @@ textarea {
       font-family: 'Dosis', sans-serif;
     }
 
-    .pc ul a:hover{
-      color: #02a9a2;
-      border-bottom: #02a9a2 2px solid;
+    .white ul a{
+      color: white;
+      font-weight: bold;
+    }
+
+    .white ul a:hover{
+      border-bottom: white 2px solid;
+      color: white;
     }
 
     .pc ul li:nth-child(5) a{
@@ -371,6 +363,15 @@ textarea {
 
     .pc ul li:nth-child(5) a:hover{
       background: #007977;
+      border-bottom: none;
+    }
+
+    .pc ul li a span{
+      border-bottom: white 2px solid;
+      padding: 16px;
+    }
+
+    .pc ul li a span:hover{
       border-bottom: none;
     }
 
@@ -445,19 +446,13 @@ textarea {
 
   /*page accueiel*/
 
+  .bk{
+      background: url("../img/photo.jpg") fixed center no-repeat;
+      background-size: cover;
+  }
+
   .pc ul{
     width: 60%;
-  }
-
-  .bk{
-      background: url("../img/photo.jpg") fixed center;
-      background-size: cover;
-      width: 100%;
-      height: 100vh;
-  }
-
-  .none{
-    display: none;
   }
 
   .pc ul a{
@@ -466,16 +461,6 @@ textarea {
     -ms-transition: all .3s ease; /* IE 9 */
     -o-transition: all .3s ease; /* Opera */
     transition: all .4s ease;
-  }
-
-  .white ul a{
-    color: white;
-    font-weight: bold;
-  }
-
-  .white ul a:hover{
-    border-bottom: white 2px solid;
-    color: white;
   }
 
   .pc ul a:hover{
@@ -491,34 +476,18 @@ textarea {
     font-size: 70px;
     margin-top: 10px;
     width: 80%;
-    color: white;
   }
 
-  .pc ul li a span{
-    border-bottom: white 2px solid;
-    padding: 16px;
-  }
-
-  .pc ul li a span:hover{
-    border-bottom: none;
+  .pc ul li .b{
+    border-bottom: #007977 2px solid;
   }
 
   .container h1 span{
     color: #02a9a2;
   }
 
-  .article1 article h2, .article1 p{
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-  }
-
   .article1 article h2{
     font-size: 22px;
-  }
-
-  .article1 hr{
-    color: white;
   }
 
   .article1 figure{
@@ -531,6 +500,8 @@ textarea {
 
   .article1 p{
     margin: 0;
+    display: flex;
+    font-weight: bold;
   }
 
   .article1{
