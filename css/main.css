@@ -376,18 +376,27 @@ textarea {
     display: none;
   }
 
+  .map{
+    width: 90%;
+    margin: auto;
+  }
+
   .map-mobile{
     width: 100%;
   }
 
-  .contact h1, .map h2{
-    border-bottom: 1px solid;
+  .contact h1, .map h2,
+  .cordenait h2{
     text-align: center;
+    color: #918d8a;
   }
+
   .contact h1{
-    font-size: 20px;
+    font-size: 30px;
     width: 100%;
+    color: #007977;
   }
+
   .bg-contact{
     height: 100%;
   }
@@ -706,16 +715,14 @@ textarea {
 
     .map-tab{
       display: block;
-
     }
 
     .contact p {
-      border-bottom: solid 1px;
+      border-bottom: #918d8a solid 1px;
       border-spacing: 10px;
     }
 
     /*end pages Contact */
-
 
   }
 
@@ -799,10 +806,13 @@ textarea {
      }
 
      .map{
-       width: 50%;
-       margin: 1em;
+       width: 90%;
        margin: auto;
-       justify-content: center;
+       text-align: center;
+     }
+
+     .map-pc{
+       width: 100%;
      }
 
      iframe{
