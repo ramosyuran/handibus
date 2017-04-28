@@ -360,12 +360,47 @@ textarea {
     margin: auto;
   }
 
-
-
-
+  .lastlast{
+    margin: 20px auto;
+  }
 
   /*page concept end*/
 
+  /*Pages Contact P */
+
+   .contact {
+     width: 100%
+   }
+  .map-tab,.map-pc{
+    display: none;
+  }
+  .map-mobile{
+    width: 100%;
+  }
+
+  }
+  .contact h1, .map h2{
+    border-bottom: 1px solid;
+    text-align: center;
+  }
+  .contact h1{
+    font-size: 20px;
+    width: 100%;
+  }
+  .bg-contact{
+    height: 100%;
+  }
+
+  .cordenait a:hover {
+    color: #007977;
+  }
+
+  .cordenait p {
+    text-align: center;
+    border-bottom: gray;
+  }
+
+  /*FIN PAGES CONTACT */
 
   footer{
     background: #e0e0e0;
@@ -594,6 +629,30 @@ textarea {
     }
     /*end Page budget*/
 
+    /*Pages contact */
+
+    .contact{
+      width: 75%;
+      margin: auto;
+      text-align: center;
+    }
+
+    .map-mobile,.map-pc{
+      display: none;
+    }
+
+    .map-tab{
+      display: block;
+
+    }
+
+    .contact p {
+      border-bottom: solid 1px;
+      border-spacing: 10px;
+    }
+
+    /*end pages Contact */
+
 
   }
 
@@ -684,8 +743,31 @@ textarea {
     width: 60%;
     }
 
-
     /*end page budget */
+
+    /*Pages Conatact */
+
+     .contact{
+       width: 60%;
+       margin: auto;
+      }
+
+     .contact h1,.contact h2{
+       text-align: center;
+     }
+
+     .map{
+       width: 50%;
+       margin: 1em;
+       margin: auto;
+       justify-content: center;
+     }
+
+     iframe{
+       margin-right: 3em;
+     }
+
+    /*Ende pages Contact */
 
   }
 
