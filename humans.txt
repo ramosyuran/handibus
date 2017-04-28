@@ -1,15 +1,21 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
+ 
+#Projet Handi bus
+
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+Yuran Ramos -- Intégrateur CSS-- @ramosyuran02
+Slimane Hassani - - Intégrateur HTML/CSS - - @slimaneha
+Valentin Leroy - - Intégrateur HTML/CSS & retoucheur photos sur Photoshop - - @ValentinLry59
+Romane Cotilleau - - Chef de projet, rédaction du contenu - - @CotilleauRomane
+
 
 # THANKS
 
-    <name>
+    Simplon & la Fondation Showroomprivé
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5
