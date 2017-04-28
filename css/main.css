@@ -371,14 +371,15 @@ textarea {
    .contact {
      width: 100%
    }
-  .map-tab,.map-pc{
+
+  .map-tab, .map-pc{
     display: none;
   }
+
   .map-mobile{
     width: 100%;
   }
 
-  }
   .contact h1, .map h2{
     border-bottom: 1px solid;
     text-align: center;
@@ -480,7 +481,7 @@ textarea {
     .pc ul li:nth-child(5) a{
       background: #02a9a2;
       color: white;
-      padding: 10
+      padding: 10px;
     }
 
     .pc ul li:nth-child(5) a:hover{
@@ -777,12 +778,12 @@ textarea {
   }
 
   .budgetpc figure{
-    width: 40%;
+    width: 35%;
     }
 
   .color{
-    width: 60%;
-    }
+    width: 65%;
+  }
 
     /*end page budget */
 
@@ -815,6 +816,18 @@ textarea {
     .containerconcept{
       width: 80%;
       margin: auto;
+    }
+
+    .cent{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+
+    .concept2, .concept3{
+      width: 49%;
     }
 
     /*.concept1, .concept2{
