@@ -97,6 +97,10 @@ textarea {
 
   /*COMMUN RULES*/
 
+  body{
+    font-family: 'Jaldi', sans-serif;
+  }
+
   .pc, .dropdown{
     display: none;
   }
@@ -150,7 +154,7 @@ textarea {
 
   .dropdown a{
     width: 100%;
-
+    font-family: 'Dosis', sans-serif;
     line-height: 60px;
     letter-spacing: 2px;
     color: #02a9a2;
@@ -170,6 +174,11 @@ textarea {
     font-size: 35px;
     letter-spacing: 2px;
     text-align: center;
+    font-family: 'Rosario', sans-serif;
+  }
+
+  .container h1 span{
+    color: #007977;
   }
 
   .article1{
@@ -182,6 +191,7 @@ textarea {
 
   .article1 figure{
     width: 80%;
+    margin-bottom: 20px;
   }
 
   .article1 article h2,
@@ -189,11 +199,18 @@ textarea {
     color: #918D8A;
     text-align: center;
     font-weight: normal;
+    font-family: 'Molengo', sans-serif;
+    margin: 3px auto;
+  }
+
+  hr{
+    margin: 5px;
+    background: #007977;
   }
 
   .article2{
     width: 90%;
-    margin: auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
   }
@@ -207,7 +224,7 @@ textarea {
   }
 
   .logo img{
-    margin-right: 10px;
+    margin: 20px 5px auto 5px;
     width: 50px;
   }
 
@@ -219,7 +236,7 @@ textarea {
   .button a{
     background: #02a9a2;
     color: white;
-    padding: 12px;
+    padding: 8px 16px;
   }
 
   .button a:hover{
@@ -288,11 +305,16 @@ textarea {
 
     /*menu*/
 
+    .container h1{
+      margin: 50px auto 0 auto;
+      font-size: 50px;
+    }
+
     .pc ul{
       display: flex;
       justify-content: space-between;
       width: 90%;
-      margin: 10px auto;
+      margin: 25px auto;
       padding: 0;
     }
 
@@ -301,11 +323,17 @@ textarea {
       color: black;
       text-transform: uppercase;
       letter-spacing: 2px;
+      font-family: 'Dosis', sans-serif;
     }
 
     .pc ul a:hover{
       color: #02a9a2;
       border-bottom: #02a9a2 2px solid;
+    }
+
+    .pc ul li:nth-child(5) a{
+      background: #02a9a2;
+      color: white;
     }
 
     /*menu end*/
@@ -318,11 +346,6 @@ textarea {
       align-items: center;
     }
 
-    .article1 article h2,
-    .article2 h2{
-      text-align: left;
-    }
-
     .article1 article{
       width: 45%;
     }
@@ -331,12 +354,12 @@ textarea {
       width: 50%;
     }
 
-    .article2 h2{
-      width: 60%;
+    .article2{
+      justify-content: flex-start;
     }
 
-    .logo{
-      justify-content: flex-start;
+    .article2 h2{
+      text-align: left;
     }
 
     .button{
