@@ -313,6 +313,59 @@ textarea {
 
   /*End page budget*/
 
+  /*page concept*/
+
+  .containerconcept h1{
+    color: #007977;
+    text-align: center;
+  }
+
+  .concept1 h2, .concept2 h2,
+  .concept3 h2, .lastlast h2,
+  .last h3{
+    color: #918d8a;
+    text-align: center;
+    border-bottom: #007977 1px solid;
+    border-top: #007977 1px solid;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .concept1 p, .lastlast p{
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+  }
+
+  .concept2 img, .concept3 img,
+  .last h2 img{
+    width: 40px;
+  }
+
+  .last figure,
+  .lastlast figure{
+    display: none;
+  }
+
+  .concept3 ul{
+    padding: 0;
+  }
+
+  .concept1, .concept2, .concept3{
+    margin: 20px auto;
+  }
+
+  .last article{
+    width: 90%;
+    margin: auto;
+  }
+
+
+
+
+
+  /*page concept end*/
+
 
   footer{
     background: #e0e0e0;
