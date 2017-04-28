@@ -280,6 +280,40 @@ textarea {
 
   /*end pag bio*/
 
+  /*Page Budget*/
+
+  .budgetpc{
+    display: none;
+  }
+
+  .budgetmobile figure{
+    width: 100%;
+    text-align: center;
+  }
+
+  .budgetmobile img{
+    width: 40%;
+  }
+
+  .containerbudget{
+    text-align: center;
+  }
+
+  .containerbudget p{
+    border-top: 1px #02a9a2 solid;
+    border-bottom: 1px #02a9a2 solid;
+    padding: 5px;
+    color: #918d8a;
+    font-weight: bold;
+  }
+
+  .containerbudget h1{
+    color: #007977;
+  }
+
+  /*End page budget*/
+
+
   footer{
     background: #e0e0e0;
   }
@@ -440,6 +474,74 @@ textarea {
 
     /*end page bio*/
 
+    /*Page Budget*/
+    .containerbudget{
+      text-align: center;
+    }
+
+    .budgetmobile{
+      display: none;
+    }
+
+    .budgetpc{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .color{
+      display: flex;
+    }
+
+    .budgetpc ul li p{
+      height: 30px;
+      width: 30px;
+      margin-right: 10px;
+    }
+
+    .budgetpc ul li{
+      display: flex;
+      align-items: center;
+    }
+
+    .blue{
+      background: #4988BE;
+    }
+
+    .red{
+      background: #C7817F;
+    }
+
+    .vert{
+      background: #96C179;
+    }
+
+    .violet{
+      background: #7373AB;
+    }
+
+    .bleu{
+      background: #6BC1DA;
+    }
+
+    .orange{
+      background: #DFA365;
+    }
+
+    .violet-claire{
+      background: #8EB2D6;
+    }
+
+    .rouge{
+      background: #D2A29E;
+    }
+
+    .vert-claire{
+      background: #B3D3A1;
+    }
+    /*end Page budget*/
+
+
   }
 
   @media (min-width: 1024px){
@@ -510,21 +612,27 @@ textarea {
 
   /*end page accueil*/
 
-  /*page budget*/
+  /*Page Budget */
 
-  .budgetpc ul li p{
-    background: yellow;
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-  }
-
-  .budgetpc ul li{
+  .budgetpc{
+    width: 90%;
+    margin: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
   }
 
-  /*end page budget*/
+  .budgetpc figure{
+    width: 40%;
+    }
+
+  .color{
+    width: 60%;
+    }
+
+
+    /*end page budget */
 
   }
 
