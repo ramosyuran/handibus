@@ -562,6 +562,27 @@ textarea {
 
     /*end page bio*/
 
+    /*page concept*/
+
+    .last figure{
+      display: flex;
+      width: 40%;
+    }
+
+    .last{
+      display: flex;
+      margin: auto;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .last article{
+      width: 50%;
+    }
+
+    /*page concept end*/
+
     /*Page Budget*/
     .containerbudget{
       text-align: center;
