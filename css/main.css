@@ -194,6 +194,10 @@ textarea {
     margin-bottom: 20px;
   }
 
+  .article1 p{
+    text-align: justify;
+  }
+
   .article1 article h2,
   .article2 h2{
     color: #918D8A;
@@ -334,6 +338,12 @@ textarea {
     .pc ul li:nth-child(5) a{
       background: #02a9a2;
       color: white;
+      padding: 10
+    }
+
+    .pc ul li:nth-child(5) a:hover{
+      background: #007977;
+      border-bottom: none;
     }
 
     /*menu end*/
@@ -372,6 +382,51 @@ textarea {
 
   }
 
+  @media (min-width: 1024px){
+
+  /*page accueiel*/
+
+  .pc ul{
+    width: 60%;
+  }
+
+  .pc ul a{
+    -webkit-transition: all .3s ease; /* Safari and Chrome */
+    -moz-transition: all .3s ease; /* Firefox */
+    -ms-transition: all .3s ease; /* IE 9 */
+    -o-transition: all .3s ease; /* Opera */
+    transition: all .4s ease;
+  }
+
+  .pc ul a:hover{
+    letter-spacing: 8px;
+    transform:scale(.5);
+   -ms-transform:scale(.5); /* IE 9 */
+   -moz-transform:scale(.5); /* Firefox */
+   -webkit-transform:scale(.5); /* Safari and Chrome */
+   -o-transform:scale(.5);
+  }
+
+  .container h1{
+    font-size: 70px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .article1 figure{
+    width: 25%;
+  }
+
+  .article1{
+    width: 80%;
+  }
+
+
+
+
+  /*end page accueil*/
+
+  /*page budget*/
 
   .budgetpc ul li p{
     background: yellow;
@@ -383,6 +438,10 @@ textarea {
   .budgetpc ul li{
     display: flex;
     align-items: center;
+  }
+
+  /*end page budget*/
+
   }
 
 
