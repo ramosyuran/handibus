@@ -497,6 +497,28 @@ textarea {
       border-bottom: none;
     }
 
+    .pc ul a{
+      -webkit-transition: all .3s ease; /* Safari and Chrome */
+      -moz-transition: all .3s ease; /* Firefox */
+      -ms-transition: all .3s ease; /* IE 9 */
+      -o-transition: all .3s ease; /* Opera */
+      transition: all .4s ease;
+    }
+
+    .pc ul a:hover{
+      letter-spacing: 8px;
+      transform:scale(.5);
+     -ms-transform:scale(.5); /* IE 9 */
+     -moz-transform:scale(.5); /* Firefox */
+     -webkit-transform:scale(.5); /* Safari and Chrome */
+     -o-transform:scale(.5);
+     border-bottom: #007977 2px solid;
+    }
+
+    .pc ul li .b{
+      border-bottom: #007977 2px solid;
+    }
+
     /*menu end*/
 
     /*page accueil*/
@@ -580,6 +602,25 @@ textarea {
     .last article{
       width: 50%;
     }
+
+    .lastlast figure{
+      display: flex;
+      width: 50%;
+    }
+
+    .lastlast p{
+      width: 40%;
+    }
+
+    .ce{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
 
     /*page concept end*/
 
@@ -690,31 +731,10 @@ textarea {
     width: 60%;
   }
 
-  .pc ul a{
-    -webkit-transition: all .3s ease; /* Safari and Chrome */
-    -moz-transition: all .3s ease; /* Firefox */
-    -ms-transition: all .3s ease; /* IE 9 */
-    -o-transition: all .3s ease; /* Opera */
-    transition: all .4s ease;
-  }
-
-  .pc ul a:hover{
-    letter-spacing: 8px;
-    transform:scale(.5);
-   -ms-transform:scale(.5); /* IE 9 */
-   -moz-transform:scale(.5); /* Firefox */
-   -webkit-transform:scale(.5); /* Safari and Chrome */
-   -o-transform:scale(.5);
-  }
-
   .container h1{
     font-size: 70px;
     margin-top: 10px;
     width: 80%;
-  }
-
-  .pc ul li .b{
-    border-bottom: #007977 2px solid;
   }
 
   .container h1 span{
@@ -789,6 +809,19 @@ textarea {
      }
 
     /*Ende pages Contact */
+
+    /*page concept*/
+
+    .containerconcept{
+      width: 80%;
+      margin: auto;
+    }
+
+    /*.concept1, .concept2{
+      text-align: center;
+    }*/
+
+    /*page concept end*/
 
   }
 
