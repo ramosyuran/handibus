@@ -405,46 +405,35 @@ textarea {
 
   /*Pages Contact P */
 
-   .contact {
-     width: 100%
+   .contact{
+     width: 90%;
+     margin: auto;
    }
 
-  .map-tab, .map-pc{
-    display: none;
-  }
+   .pq{
+     text-align: justify;
+   }
 
-  .map{
-    width: 90%;
-    margin: auto;
-  }
-
-  .map-mobile{
-    width: 100%;
-  }
-
-  .contact h1, .map h2,
-  .cordenait h2{
+  .cordenait h2, .map h2{
     text-align: center;
     color: #918d8a;
+    border-top: 1px #007977 solid;
+    border-bottom: 1px #007977 solid;
   }
 
   .contact h1{
     font-size: 30px;
+    text-align: center;
     width: 100%;
     color: #007977;
-  }
-
-  .bg-contact{
-    height: 100%;
   }
 
   .cordenait a:hover {
     color: #007977;
   }
 
-  .cordenait p {
-    text-align: center;
-    border-bottom: gray;
+  .map{
+    display: none;
   }
 
   /*FIN PAGES CONTACT */
@@ -755,23 +744,14 @@ textarea {
 
     /*Pages contact */
 
-    .contact{
-      width: 75%;
-      margin: auto;
+    .cordenait{
       text-align: center;
     }
 
-    .map-mobile,.map-pc{
-      display: none;
-    }
-
-    .map-tab{
+    .map{
       display: block;
-    }
-
-    .contact p {
-      border-bottom: #918d8a solid 1px;
-      border-spacing: 10px;
+      text-align: center;
+      margin: 30px auto;
     }
 
     /*end pages Contact */
@@ -784,6 +764,11 @@ textarea {
 
   .pc ul{
     width: 70%;
+  }
+
+  .container{
+    width: 80%;
+    margin: auto;
   }
 
   .container h1{
@@ -839,7 +824,7 @@ textarea {
   /*Page Budget */
 
   .budgetpc{
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -855,77 +840,56 @@ textarea {
     width: 65%;
   }
 
+  .containerbudget h1, .ch2{
+    text-align: center;
+  }
+
   .containerbudget{
+    width: 80%;
+    margin: auto;
+    text-align: inherit;
+  }
+
+  /*end page budget */
+
+  /*page bio*/
+
+  .contenairbio{
     width: 80%;
     margin: auto;
   }
 
-    /*end page budget */
+  /*end page bio*/
 
-    /*page bio*/
+  /*Pages Conatact */
 
-    .center{
-      width: 15%;
+   .contact{
+     width: 80%;
+     margin: auto;
     }
 
-    .contenairbio{
-      width: 80%;
-      margin: auto;
-    }
+  /*Ende pages Contact */
 
-    /*end page bio*/
+  /*page concept*/
 
-    /*Pages Conatact */
+  .containerconcept{
+    width: 80%;
+    margin: auto;
+  }
 
-     .contact{
-       width: 60%;
-       margin: auto;
-      }
+  .cent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 
-     .contact h1,.contact h2{
-       text-align: center;
-     }
+  .concept2, .concept3{
+    width: 49%;
+  }
 
-     .map{
-       width: 90%;
-       margin: auto;
-       text-align: center;
-     }
-
-     .map-pc{
-       width: 100%;
-     }
-
-     iframe{
-       margin-right: 3em;
-     }
-
-    /*Ende pages Contact */
-
-    /*page concept*/
-
-    .containerconcept{
-      width: 80%;
-      margin: auto;
-    }
-
-    .cent{
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-    }
-
-    .concept2, .concept3{
-      width: 49%;
-    }
-
-    /*.concept1, .concept2{
-      text-align: center;
-    }*/
-
-    /*page concept end*/
+  /*page concept end*/
 
   }
 
